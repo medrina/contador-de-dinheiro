@@ -1,0 +1,85 @@
+#title {
+    font-size: 2.2em;
+    color: #FFF;
+    background: #000;
+}
+#instructions, #titleMark {
+    font-size: 1.2em;
+}
+.markNotesAndCoins {
+    font-size: 1.4em;
+    line-height: 1.7em;
+}  
+span.text-white {
+    height: 100%;
+    font-size: 1.5em;
+}
+#account, #clientMoney, #thing {
+    font-family: 'Cairo', sans-serif;
+    color: #a2d869;
+    border: 1px dotted #FFF;
+}
+#account, #clientMoney, #thing {
+    background: #212429;
+    font-size: 1.7em;
+}
+#calculateThing {
+    font-size: 1.4em;
+}
+.rotule {
+    font-size: 1.6em;
+}
+#thing {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fc5f34;
+}
+#box-note-1:hover, #box-coin-1:hover {
+    cursor: not-allowed;
+}
+#imgMoney {
+    width: 150px;
+}
+#imgCoin {
+    width: 65px;
+}
+
+/* media-queries */
+@media (max-width: 576px) {
+    #title {
+        font-size: 1.7em;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    #title {
+        font-size: 2em;
+    }
+    #instructions, #titleMark {
+        font-size: 1.1em;
+    }
+    #calculateThing {
+        font-size: 1.3em;
+    }
+}
+      
+@media (min-width: 768px) and (max-width: 992px) {
+    .markNotesAndCoins {
+        font-size: 1.03em;
+        line-height: 2em;
+    }
+    #calculateThing {
+        font-size: 1em;
+    }
+    .rotule {
+        font-size: 1.4em;
+    }
+    span.text-white ,input#account, input#clientMoney, input#thing {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .markNotesAndCoins {
+        font-size: 1.4em;
+    }
+}
